@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: "pexels-juanpphotoandvideo-1242348.jpg";
+    --background: "white" #ffff;
     --foreground: #ededed;
   }
 }
