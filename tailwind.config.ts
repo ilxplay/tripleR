@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "light-orange": "#FEB581",
+        "purple-orange": "#c7594b"
       },
     },
   },
