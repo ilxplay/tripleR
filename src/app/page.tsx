@@ -1,12 +1,12 @@
 import React from 'react';
-import { Header } from '../components/ui/Header';
+import { Header } from '../components/Header';
 import Image from "next/image"
 
 const HomePage: React.FC = () => {
   const links = [
     { name: 'Home', href: '/' },
     { name: 'Sign-in', href: '/sign-in' },
-    { name: 'Log-in', href: '/log-in' },
+
   ];
 
   return <div>
