@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header } from '../components/ui/Header';
+import Image from "next/image"
 
 const HomePage: React.FC = () => {
   const links = [
