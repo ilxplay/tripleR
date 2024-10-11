@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import '@/styles/globals.css';
+import { Toaster } from "@/components/ui/Toaster";
+import { Header } from "@/components/Header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -18,6 +20,8 @@ export const metadata: Metadata = {
   description: "",
 };
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -28,7 +32,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="mx-auto h-full">
+          {children}
+        </div>
+
+        <Toaster />
       </body>
     </html>
   );
