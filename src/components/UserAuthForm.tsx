@@ -19,9 +19,10 @@ const UserAuthForm: FC<UserAuthProps> = ({ className, ...props }) => {
 
     try {
       throw new Error
+
       await signIn("google")
     } catch (error) {
-      //toast ntf
+
       toast({
         title: "There was a problem",
         description: "There was an error logging in with Google",
