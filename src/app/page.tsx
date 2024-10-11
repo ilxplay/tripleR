@@ -5,7 +5,7 @@ const HomePage: React.FC = () => {
   const links = [
     { name: 'Home', href: '/' },
     { name: 'Sign-in', href: '/sign-in' },
-    { name: 'Log-in', href: '/contact' },
+    { name: 'Log-in', href: '/log-in' },
   ];
 
   return <div>
