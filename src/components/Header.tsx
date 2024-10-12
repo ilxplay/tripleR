@@ -1,4 +1,5 @@
 import React from 'react';
+import { buttonVariants } from './ui/Button';
 
 interface HeaderProps {
   title: string;
@@ -16,7 +17,7 @@ export const Header: React.FC<HeaderProps> = ({ title, links }) => {
               <li key={link.name}>
                 <a
                   href={link.href}
-                  className="text-white hover:text-gray-200 transition duration-200">
+                  className={buttonVariants()}>
                   {link.name}
                 </a>
               </li>
