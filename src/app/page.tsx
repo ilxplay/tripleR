@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
     <div className='mx-auto'>
       <Header title="tripleR" links={links} />
       <h1 className="m-5 flex justify-center font-extrabold text-3xl md:text-4xl">ACTIONS</h1>
-      <style className="">{"body{background-color: #ffb766}"}</style>
+
       <div className="justify-center grid grid-cols-3 md:grid-cols-3 gap-y-4 md:gap-x-4 py-6" >
         <div className="overflow-hidden h-fit rounded-lg border border-gray-200 order-first md:order-last">
           <div className="bg-purple-orange px-6 py-4">
