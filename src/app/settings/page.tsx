@@ -1,13 +1,11 @@
-import React from 'react';
-import { FC } from "react";
 
-export const Page: FC = ({ }) => {
+
+export default function SettingsPage() {
+
 
   return (
-    <div>
-      Settings
+    <div className="container mx-auto px-4 py-8">
+
     </div>
   )
 }
-
-export default Page;
