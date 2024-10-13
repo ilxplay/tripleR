@@ -23,11 +23,11 @@ const Navbar = async () => {
           <div className="flex items-center space-x-4">
 
             <Link href="/settings">
-              <Button variant="ghost" size="sm" className="hidden sm:flex items-center space-x-2">
+              <Button variant="default" size="sm" className="hidden sm:flex items-center space-x-2">
                 <Settings className="h-4 w-4" />
                 <span>Settings</span>
               </Button>
-              <Button variant="ghost" className="sm:hidden">
+              <Button variant="default" className="sm:hidden">
                 <Settings className="h-5 w-5" />
                 <span className="sr-only">Settings</span>
               </Button>
