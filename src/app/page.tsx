@@ -1,15 +1,9 @@
 import React from 'react';
-
+import { FC } from "react"
 import Image from "next/image"
 import { HomeIcon } from "lucide-react"
 
-const HomePage: React.FC = () => {
-  const links = [
-    { name: 'Home', href: '/' },
-    { name: 'Sign-in', href: '/sign-in' },
-
-  ];
-
+export const Page: FC = ({ }) => {
   return (
     <div className='mx-auto'>
 
@@ -37,6 +31,9 @@ const HomePage: React.FC = () => {
 
     </div>
   )
-
 }
-export default HomePage;
+
+export default Page
+
+
+
