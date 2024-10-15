@@ -2,10 +2,16 @@ import React from 'react';
 import { FC } from "react"
 import Image from "next/image"
 import { HomeIcon } from "lucide-react"
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/Hovercard"
+import Footer from '@/components/Footer';
 
 export const Page: FC = ({ }) => {
   return (
-    <div className='mx-auto'>
+    <div className='h-full'>
       <h1 className="m-5 flex justify-center font-extrabold text-3xl md:text-4xl">ACTIONS</h1>
       <div className="justify-center grid grid-cols-3 md:grid-cols-3 gap-y-4 md:gap-x-4 py-6" >
         <div className="overflow-hidden h-fit rounded-lg border border-gray-200 order-first md:order-last">
@@ -25,6 +31,7 @@ export const Page: FC = ({ }) => {
         </div>
       </div>
     </div>
+
   )
 }
 

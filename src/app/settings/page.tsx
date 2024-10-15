@@ -1,20 +1,11 @@
 import React from 'react';
+import { FC } from "react"
 
-
-export function UserPreferences() {
+export const SettingsPage: FC = ({ }) => {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-screen">
-      <h1 className="text-5xl font-bold">User Preferences</h1>
+    <div>
 
     </div>
-  )
+  );
 }
 
-export default function SettingsPage() {
-  return (
-    <div className="container mx-auto px-4 py-8">
-      <UserPreferences />
-
-    </div>
-  )
-}
