@@ -7,7 +7,8 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/Hovercard"
-import Footer from '@/components/Footer';
+import { Button, buttonVariants } from '@/components/ui/Button';
+import { cn } from '@/lib/utils';
 
 export const Page: FC = ({ }) => {
   return (
@@ -30,6 +31,27 @@ export const Page: FC = ({ }) => {
           </div>
         </div>
       </div>
+      <div className='flex justify-center fixed bottom-12 left-0 w-full'>
+        <HoverCard>
+          <HoverCardTrigger asChild>
+            <Button variant="link">
+              <p className='text-2xl font-bold'>
+                @TripleR
+              </p>
+            </Button>
+          </HoverCardTrigger>
+          <HoverCardContent className="w-80">
+            <div className="flex justify-between space-x-4">
+              <div className="space-y-2">
+                <h4 className="text-xl font-semibold">TripleR</h4>
+                <p className="text-lg">
+                  Creators: @ilxplay
+                </p>
+              </div>
+            </div>
+          </HoverCardContent>
+        </HoverCard></div>
+
     </div>
 
   )
