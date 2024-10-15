@@ -6,9 +6,7 @@ import { HomeIcon } from "lucide-react"
 export const Page: FC = ({ }) => {
   return (
     <div className='mx-auto'>
-
       <h1 className="m-5 flex justify-center font-extrabold text-3xl md:text-4xl">ACTIONS</h1>
-
       <div className="justify-center grid grid-cols-3 md:grid-cols-3 gap-y-4 md:gap-x-4 py-6" >
         <div className="overflow-hidden h-fit rounded-lg border border-gray-200 order-first md:order-last">
           <div className="bg-purple-orange px-6 py-4">
@@ -16,7 +14,6 @@ export const Page: FC = ({ }) => {
               <HomeIcon className="w-6 h-6" />
               Home
             </p>
-
           </div>
           <div className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
             <div className="flex justify-between gap-x-4 py-3">
@@ -24,11 +21,9 @@ export const Page: FC = ({ }) => {
                 It's you personal feed. You can adjust your feed in the Feed settings menu.
               </p>
             </div>
-
           </div>
         </div>
       </div>
-
     </div>
   )
 }
