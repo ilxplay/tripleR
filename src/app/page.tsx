@@ -21,7 +21,7 @@ export const Page: FC = ({ }) => {
           <div className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
             <div className="flex justify-between gap-x-4 py-3">
               <p className="text-zinc-500">
-                It's you personal feed. You can adjust your feed in the Feed settings menu.
+                It's you personal feed. You can adjust it in the Feed settings menu.
               </p>
             </div>
 
