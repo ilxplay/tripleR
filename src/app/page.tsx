@@ -8,14 +8,15 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/Hovercard"
 import { Button, buttonVariants } from '@/components/ui/Button';
-import { cn } from '@/lib/utils';
+
 
 export const Page: FC = ({ }) => {
   return (
-    <div className='h-full'>
+    <div className="h-full">
       <h1 className="m-5 flex justify-center font-extrabold text-3xl md:text-4xl">ACTIONS</h1>
-      <div className="justify-center grid grid-cols-3 md:grid-cols-3 gap-y-4 md:gap-x-4 py-6" >
-        <div className="overflow-hidden h-fit rounded-lg border border-gray-200 order-first md:order-last">
+      <div className="justify-center grid grid-cols-4 md:grid-cols-6 gap-y-4 md:gap-x-4 py-6" >
+
+        <div className="overflow-hidden h-fit rounded-lg border border-gray-200 col-span-3 md:col-span-1 order-first md:order-last">
           <div className="bg-purple-orange px-6 py-4">
             <p className="font-semibold py-3 flex-items gap1.5">
               <HomeIcon className="w-6 h-6" />
