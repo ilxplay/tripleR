@@ -3,8 +3,13 @@ import { FC } from "react"
 
 export const SettingsPage: FC = ({ }) => {
   return (
-    <div>
+    <div className='h-full'>
+      <div className='flex justify-center py-12'>
 
+        <p className='text-center text-2xl antialiased'>
+          working in progress...
+        </p>
+      </div>
     </div>
   );
 }
