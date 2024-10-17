@@ -1,4 +1,4 @@
-import { GlobeLock, HomeIcon } from "lucide-react"
+import { GlobeLock } from "lucide-react"
 import React from "react"
 import { buttonVariants } from "./ui/Button"
 import Link from "next/link"
