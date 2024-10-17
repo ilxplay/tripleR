@@ -15,11 +15,11 @@ export const Page: FC = ({ }) => {
     <div className="h-full">
       <HomeFeed></HomeFeed>
       <PrivateFeed></PrivateFeed>
-      <div className='flex justify-center fixed bottom-12 left-0 w-full'>
+      <div className='min-w-full flex justify-center fixed lg:bottom-8 md:bottom-2 sm:bottom-1 botton:2 left-0'>
         <HoverCard>
           <HoverCardTrigger asChild>
             <Button variant="link">
-              <p className='text-2xl font-bold'>
+              <p className='lg:text-2xl md:text-lg sm:text-sm font-bold'>
                 @TripleR
               </p>
             </Button>
