@@ -6,13 +6,15 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/Hovercard"
 import { Button } from '@/components/ui/Button';
-import HomeFeed from '@/components/Homefeed';
+import HomeFeed from '@/components/HomeFeed';
+import PrivateFeed from '@/components/PrivateFeed';
 
 
 export const Page: FC = ({ }) => {
   return (
     <div className="h-full">
       <HomeFeed></HomeFeed>
+      <PrivateFeed></PrivateFeed>
       <div className='flex justify-center fixed bottom-12 left-0 w-full'>
         <HoverCard>
           <HoverCardTrigger asChild>
