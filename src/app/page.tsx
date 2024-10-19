@@ -29,7 +29,9 @@ export const Page: FC = ({ }) => {
               <div className="space-y-2">
                 <h4 className="text-xl font-semibold">TripleR</h4>
                 <p className="text-lg">
+                  Idea: @ilxplay
                   Creators: @ilxplay
+                  Contibutors: @ilxplay
                 </p>
               </div>
             </div>
