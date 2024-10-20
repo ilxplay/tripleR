@@ -16,6 +16,7 @@ export const Page: FC = ({ }) => {
       <HomeFeed></HomeFeed>
       <PrivateFeed></PrivateFeed>
       <div className='min-w-full flex justify-center fixed lg:bottom-8 md:bottom-2 sm:bottom-1 botton:2 left-0'>
+
         <HoverCard>
           <HoverCardTrigger asChild>
             <Button variant="link">
